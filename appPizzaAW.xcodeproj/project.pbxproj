@@ -19,6 +19,12 @@
 		1AF55C141DA1EE5200232C6C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF55C131DA1EE5200232C6C /* InterfaceController.swift */; };
 		1AF55C161DA1EE5200232C6C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF55C151DA1EE5200232C6C /* ExtensionDelegate.swift */; };
 		1AF55C181DA1EE5200232C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF55C171DA1EE5200232C6C /* Assets.xcassets */; };
+		1AF55C281DA1EF8B00232C6C /* TamanoPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF55C271DA1EF8B00232C6C /* TamanoPizza.swift */; };
+		1AF55C2A1DA1FA0200232C6C /* DatosPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF55C291DA1FA0200232C6C /* DatosPizza.swift */; };
+		1AF55C2C1DA1FEE800232C6C /* TipoDeMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF55C2B1DA1FEE800232C6C /* TipoDeMasa.swift */; };
+		1AF55C2E1DA2021300232C6C /* TipoDeQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF55C2D1DA2021300232C6C /* TipoDeQueso.swift */; };
+		1AF55C301DA2050D00232C6C /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF55C2F1DA2050D00232C6C /* Ingredientes.swift */; };
+		1AF55C341DA20CED00232C6C /* VistaFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF55C331DA20CED00232C6C /* VistaFinal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +86,12 @@
 		1AF55C151DA1EE5200232C6C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		1AF55C171DA1EE5200232C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AF55C191DA1EE5200232C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF55C271DA1EF8B00232C6C /* TamanoPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamanoPizza.swift; sourceTree = "<group>"; };
+		1AF55C291DA1FA0200232C6C /* DatosPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosPizza.swift; sourceTree = "<group>"; };
+		1AF55C2B1DA1FEE800232C6C /* TipoDeMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoDeMasa.swift; sourceTree = "<group>"; };
+		1AF55C2D1DA2021300232C6C /* TipoDeQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoDeQueso.swift; sourceTree = "<group>"; };
+		1AF55C2F1DA2050D00232C6C /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
+		1AF55C331DA20CED00232C6C /* VistaFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaFinal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,9 +159,15 @@
 			isa = PBXGroup;
 			children = (
 				1AF55C131DA1EE5200232C6C /* InterfaceController.swift */,
+				1AF55C271DA1EF8B00232C6C /* TamanoPizza.swift */,
+				1AF55C2B1DA1FEE800232C6C /* TipoDeMasa.swift */,
+				1AF55C2D1DA2021300232C6C /* TipoDeQueso.swift */,
+				1AF55C2F1DA2050D00232C6C /* Ingredientes.swift */,
+				1AF55C331DA20CED00232C6C /* VistaFinal.swift */,
 				1AF55C151DA1EE5200232C6C /* ExtensionDelegate.swift */,
 				1AF55C171DA1EE5200232C6C /* Assets.xcassets */,
 				1AF55C191DA1EE5200232C6C /* Info.plist */,
+				1AF55C291DA1FA0200232C6C /* DatosPizza.swift */,
 			);
 			path = "appPizzaAW WatchKit Extension";
 			sourceTree = "<group>";
@@ -295,8 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF55C2E1DA2021300232C6C /* TipoDeQueso.swift in Sources */,
+				1AF55C2A1DA1FA0200232C6C /* DatosPizza.swift in Sources */,
+				1AF55C281DA1EF8B00232C6C /* TamanoPizza.swift in Sources */,
 				1AF55C161DA1EE5200232C6C /* ExtensionDelegate.swift in Sources */,
+				1AF55C341DA20CED00232C6C /* VistaFinal.swift in Sources */,
+				1AF55C301DA2050D00232C6C /* Ingredientes.swift in Sources */,
 				1AF55C141DA1EE5200232C6C /* InterfaceController.swift in Sources */,
+				1AF55C2C1DA1FEE800232C6C /* TipoDeMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
